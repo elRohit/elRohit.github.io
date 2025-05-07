@@ -15,8 +15,8 @@ Formación técnica en **Microinformática y Redes** + **Administración de Sist
 | **SysAdmin**  | Proxmox • Terraform • Apache/Nginx • Zabbix   |
 | **Virtualización** | VirtualBox • KVM • QEMU              |
 | **Automatización** | Ansible • Bash/PowerShell • Python      |
-| **BBDD**      | MySQL • PostgreSQL • Redis                    |
-| **Monitorización** | Zabbix • Prometheus • NetData       |
+| **BBDD**      | MySQL/MariaDB • PostgreSQL                    |
+| **Monitorización** | Zabbix • PFsense • NetData       |
 
 ## 🛠️ Stack Técnico:
 **Infraestructura**  
