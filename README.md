@@ -1,53 +1,53 @@
 # 💫 Sobre Mí:
 👨💻 Administrador de Sistemas & Desarrollador Full-Stack  
-🔧 Especialista en infraestructuras on-premise y virtualización  
-🚀 Apasionado por soluciones estables y eficientes
+🔧 Especialista en virtualización y automatización de infraestructuras  
+🚀 Apasionado por soluciones reproducibles y multiplataforma
 
 Formación técnica en **Microinformática y Redes** + **Administración de Sistemas**, con enfoque en:
-- 🖥️ Virtualización avanzada (Proxmox/VMware)
-- 🛡️ Seguridad perimetral y monitorización
-- 🔄 Automatización de despliegues
-- 📈 Optimización de recursos hardware
+- 🖥️ Virtualización multiplataforma (Proxmox/VirtualBox)
+- 📜 Infraestructura como Código (Terraform/Ansible)
+- 🔄 Flujos de trabajo automatizados
+- 🛡️ Hardening de sistemas operativos
 
 ## 💼 Experiencia Clave:
 | Área          | Tecnologías Dominadas                          |
 |---------------|-----------------------------------------------|
-| **SysAdmin**  | Proxmox • Docker • Apache/Nginx • Zabbix      |
-| **Virtualización** | VMware ESXi • KVM • LXC Containers      |
-| **Desarrollo**| PHP • Python • C# • .NET • Bash/PowerShell    |
+| **SysAdmin**  | Proxmox • Terraform • Apache/Nginx • Zabbix   |
+| **Virtualización** | VirtualBox • KVM • QEMU              |
+| **Automatización** | Ansible • Bash/PowerShell • Python      |
 | **BBDD**      | MySQL • PostgreSQL • Redis                    |
-| **Monitorización** | Zabbix • Prometheus • Nagios Core      |
+| **Monitorización** | Zabbix • Prometheus • NetData       |
 
 ## 🛠️ Stack Técnico:
 **Infraestructura**  
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?logo=proxmox&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?logo=vmware)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform)
+![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?logo=virtualbox)
 
 **Desarrollo**  
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible)
 
 **Monitorización**  
 ![Zabbix](https://img.shields.io/badge/Zabbix-D40000?logo=zabbix&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?logo=prometheus)
 
 ## 🌍 Proyectos Destacados:
-▶ **Cluster Proxmox HA**  
-_Implementación de alta disponibilidad con Ceph Storage_  
-✔ Migración en vivo de VMs entre 3 nodos físicos  
-✔ Almacenamiento redundante con 10Gbps dedicado  
+▶ **Infraestructura como Código**  
+_Implementación de entornos reproducibles con Terraform + Ansible_  
+✔ Provisionamiento automático de 50+ nodos  
+✔ Plantillas multiplataforma (VirtualBox/Proxmox)  
 
-▶ **Sistema de Monitorización Empresarial**  
-_Despliegue de Zabbix + Grafana para 100+ dispositivos_  
-✔ Alertas personalizadas via Telegram/Email  
-✔ Dashboards unificados para métricas en tiempo real  
+▶ **Laboratorio de Redes Virtualizado**  
+_Entorno completo con VirtualBox + Vagrant para pruebas de seguridad_  
+✔ Simulación de redes empresariales complejas  
+✔ Auto-configuración de routers y firewall virtuales  
 
-▶ **Autoinstalador de Servicios**  
-_Script Bash para deploy automático de stacks LAMP/LEMP_  
-✔ Compatible con Debian/Ubuntu/CentOS  
-✔ Configuración hardening automático  
+▶ **Sistema de Backup Automatizado**  
+_Solución personalizada con Rsync + Zabbix triggers_  
+✔ Cifrado AES-256 integrado  
+✔ Notificaciones por Telegram y registro auditivo  
 
 ## 📬 Contacto:
 [![LinkedIn](https://img.shields.io/badge/Conectemos_en_LinkedIn-0A66C2?logo=linkedin)](https://linkedin.com/in/RohitKumar)
