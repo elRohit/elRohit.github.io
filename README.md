@@ -27,7 +27,7 @@ Formación técnica en **Microinformática y Redes** + **Administración de Sist
 **Desarrollo**  
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?logo=ansible)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?logo=gnubash)
 
 **Monitorización**  
 ![Zabbix](https://img.shields.io/badge/Zabbix-D40000?logo=zabbix&logoColor=white)
