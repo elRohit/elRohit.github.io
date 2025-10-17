@@ -1,0 +1,293 @@
+--- START OF FILE index.html ---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Rohit Kumar - Técnico Informática & Ciberseguridad</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="nav-link">Inicio</a>
+            <a href="#about" class="nav-link">Sobre Mí</a>
+            <a href="#skills" class="nav-link">Habilidades</a>
+            <a href="#projects" class="nav-link">Proyectos</a>
+            <a href="#documentation" class="nav-link">Documentación</a>
+            <a href="#certifications" class="nav-link">Certificaciones</a>
+            <a href="#contact" class="nav-link">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Sección HOME -->
+        <section id="home" class="hero section">
+            <div class="hero-content">
+                <h1 class="hero-title">¡Hola, soy <span class="highlight">Rohit Kumar</span>!</h1>
+                <p class="hero-subtitle typewrite" data-period="2000" data-type='["Técnico Informático", "Especialista en Redes y Sistemas", "Apasionado por la Ciberseguridad"]'>
+                    <span class="wrap"></span>
+                </p>
+                <a href="#projects" class="btn primary-btn">Ver Proyectos <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-illustration">
+                <canvas id="matrixCanvas"></canvas>
+            </div>
+        </section>
+
+        <!-- Sección SOBRE MÍ -->
+        <section id="about" class="section">
+            <div class="animated-bg"></div> <!-- Nuevo div para fondo animado -->
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Soy un Técnico Informático con una sólida base en <strong>Sistemas Microinformáticos y Redes (SMX)</strong> y <strong>Administración de Sistemas Informáticos en Red (ASIX)</strong>. Actualmente, estoy inmerso en el apasionante mundo de la <strong>Ciberseguridad</strong>, buscando proteger y asegurar entornos digitales.</p>
+                    <p>Mi trayectoria me ha permitido desarrollar una comprensión integral del hardware, software, redes y la importancia crítica de la seguridad. Me entusiasma enfrentar desafíos tecnológicos y aprender continuamente sobre las últimas tendencias y amenazas en el ámbito de la seguridad informática.</p>
+                    <a href="#contact" class="btn secondary-btn">Contactar <i class="fas fa-envelope"></i></a>
+                </div>
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/250/0f3460/00bcd4?text=Rohit" alt="Tu foto de perfil" class="profile-pic">
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección HABILIDADES -->
+        <section id="skills" class="section">
+            <div class="animated-bg"></div> <!-- Nuevo div para fondo animado -->
+            <h2 class="section-title">Mis Habilidades</h2>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Habilidades Técnicas</h3>
+                    <ul class="skills-list">
+                        <li>
+                            <span class="skill-name">Administración Windows / Linux</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Configuración de Redes (TCP/IP, VLANs, Routing)</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Virtualización (VMware, VirtualBox)</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Scripting (Bash, PowerShell, Python)</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Análisis de Vulnerabilidades y Hardening</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:75%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">SIEM, Wireshark, Nmap, Metasploit</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:70%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Active Directory y servicios de red</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:85%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-user-friends"></i> Habilidades Personales</h3>
+                    <ul class="skills-list">
+                        <li>
+                            <span class="skill-name">Comunicación efectiva</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Trabajo en equipo</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Resolución de problemas</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:85%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Capacidad de aprendizaje y adaptación</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:90%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Organización y gestión del tiempo</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="skill-name">Atención al detalle</span>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-level" style="width:85%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección PROYECTOS -->
+        <section id="projects" class="section">
+            <div class="animated-bg"></div> <!-- Nuevo div para fondo animado -->
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/0f2027/ffffff?text=Proyecto+1" alt="Sistema de Detección de Intrusos">
+                    <h3>Sistema de Detección de Intrusos (Dummy)</h3>
+                    <p>Implementación y configuración de un IDS/IPS simulado para monitorizar tráfico de red y alertar sobre actividades sospechosas. Utilizando herramientas como Snort y ELK Stack.</p>
+                    <div class="project-tags"><span>Ciberseguridad</span><span>Redes</span><span>Linux</span></div>
+                    <a href="#" class="btn project-btn" target="_blank">Ver Detalles <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/0f2027/ffffff?text=Proyecto+2" alt="Infraestructura Virtual">
+                    <h3>Despliegue de Infraestructura Virtual (Dummy)</h3>
+                    <p>Diseño y montaje de un entorno de servidores virtualizado con VMware ESXi, incluyendo Active Directory, servidor web y base de datos, con configuraciones de seguridad básicas.</p>
+                    <div class="project-tags"><span>Virtualización</span><span>Sistemas</span><span>ASIX</span></div>
+                    <a href="#" class="btn project-btn" target="_blank">Ver Detalles <i class="fas fa-external-link-alt"></i></a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/0f2027/ffffff?text=Proyecto+3" alt="Script de Automatización">
+                    <h3>Script de Automatización de Tareas (Dummy)</h3>
+                    <p>Script en Python para automatizar la gestión de usuarios en un entorno Linux, incluyendo creación, modificación y eliminación, y generación de informes de actividad.</p>
+                    <div class="project-tags"><span>Scripting</span><span>Python</span><span>Linux</span></div>
+                    <a href="#" class="btn project-btn" target="_blank">Ver Detalles <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección DOCUMENTACIÓN -->
+        <section id="documentation" class="section">
+            <div class="animated-bg"></div> <!-- Nuevo div para fondo animado -->
+            <h2 class="section-title">Mis Manuales y Documentación</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/0f2027/00bcd4?text=Manual+Instalacion" alt="Manual de Instalación de Servidor">
+                    <h3>Manual de Instalación de Servidor Linux Hardening</h3>
+                    <p>Guía detallada para la instalación segura y endurecimiento de un servidor Linux, cubriendo configuraciones de firewall, SSH y gestión de usuarios.</p>
+                    <div class="project-tags"><span>Ciberseguridad</span><span>Sistemas</span><span>Linux</span></div>
+                    <a href="manuales/manual-instalacion-linux.pdf" class="btn project-btn" target="_blank">Ver Manual <i class="fas fa-file-pdf"></i></a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/0f2027/00bcd4?text=Guia+Redes" alt="Guía de Configuración de Redes">
+                    <h3>Guía de Configuración de Redes VLANs y VPNs</h3>
+                    <p>Documento exhaustivo sobre el diseño e implementación de redes segmentadas con VLANs y la configuración de túneles VPN para acceso seguro remoto.</p>
+                    <div class="project-tags"><span>Redes</span><span>ASIX</span><span>Seguridad</span></div>
+                    <a href="manuales/guia-redes-vlans-vpns.pdf" class="btn project-btn" target="_blank">Ver Manual <i class="fas fa-file-pdf"></i></a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/400x250/0f2027/00bcd4?text=Informe+Penetration" alt="Informe de Pruebas de Penetración">
+                    <h3>Informe de Pruebas de Penetración Básicas</h3>
+                    <p>Ejemplo de un informe técnico resultado de pruebas de penetración en una pequeña red, incluyendo vulnerabilidades encontradas y recomendaciones.</p>
+                    <div class="project-tags"><span>Ciberseguridad</span><span>Hacking Ético</span><span>Análisis</span></div>
+                    <a href="manuales/informe-pentest.pdf" class="btn project-btn" target="_blank">Ver Informe <i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nueva Sección CERTIFICACIONES -->
+        <section id="certifications" class="section">
+            <div class="animated-bg"></div>
+            <h2 class="section-title">Certificaciones</h2>
+            <p class="section-subtitle">Certificados obtenidos que demuestran mi formación y especialización.</p>
+
+            <div class="certificates-grid">
+                <div class="certificate-card">
+                    <img src="https://via.placeholder.com/400x250/123456/ffffff?text=Certificado+1" alt="Certified Network Technician">
+                    <h3>Certified Network Technician</h3>
+                    <p class="certificate-meta">Emisor: Tech Institute • Fecha: Marzo 2022 • ID: RKK-NT-2022-001</p>
+                    <p>Formación en fundamentos de redes, configuración de dispositivos y solución de problemas TCP/IP.</p>
+                    <div class="project-tags"><span>Redes</span><span>TCP/IP</span></div>
+                    <a href="certificados/certificado-network-technician-rohit.pdf" class="btn project-btn" target="_blank">Ver Certificado <i class="fas fa-file-pdf"></i></a>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="https://via.placeholder.com/400x250/284b63/ffffff?text=Certificado+2" alt="Intro to Cybersecurity">
+                    <h3>Intro to Cybersecurity</h3>
+                    <p class="certificate-meta">Emisor: Cyber Academy • Fecha: Julio 2023 • ID: RKK-CS-2023-014</p>
+                    <p>Curso introductorio sobre amenazas, buenas prácticas y controles básicos de seguridad informática.</p>
+                    <div class="project-tags"><span>Ciberseguridad</span><span>Hardening</span></div>
+                    <a href="certificados/intro-cybersecurity-rohit.pdf" class="btn project-btn" target="_blank">Ver Certificado <i class="fas fa-file-pdf"></i></a>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="https://via.placeholder.com/400x250/0b3d91/ffffff?text=Certificado+3" alt="Linux Server Administration">
+                    <h3>Linux Server Administration</h3>
+                    <p class="certificate-meta">Emisor: Open Systems • Fecha: Enero 2024 • ID: RKK-LSA-2024-007</p>
+                    <p>Certificado en administración de servidores Linux, gestión de usuarios, servicios y seguridad básica.</p>
+                    <div class="project-tags"><span>Linux</span><span>Sistemas</span></div>
+                    <a href="certificados/linux-server-admin-rohit.pdf" class="btn project-btn" target="_blank">Ver Certificado <i class="fas fa-file-pdf"></i></a>
+                </div>
+
+                <div class="certificate-card">
+                    <img src="https://via.placeholder.com/400x250/1e5f4a/ffffff?text=Certificado+4" alt="Fundamentals of Virtualization">
+                    <h3>Fundamentals of Virtualization</h3>
+                    <p class="certificate-meta">Emisor: VirtualLab • Fecha: Octubre 2021 • ID: RKK-VIRT-2021-033</p>
+                    <p>Conceptos de virtualización, despliegue de máquinas virtuales y mejores prácticas para entornos virtualizados.</p>
+                    <div class="project-tags"><span>Virtualización</span><span>VMware</span></div>
+                    <a href="certificados/fundamentals-virtualization-rohit.pdf" class="btn project-btn" target="_blank">Ver Certificado <i class="fas fa-file-pdf"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección CONTACTO -->
+        <section id="contact" class="section">
+            <div class="animated-bg"></div> <!-- Nuevo div para fondo animado -->
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-content">
+                <p>¿Interesado en mi perfil o tienes alguna pregunta? ¡No dudes en contactarme!</p>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nombre:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensaje:</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Enviar Mensaje <i class="fas fa-paper-plane"></i></button>
+                </form>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/rohitkumar" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/rohitkumar" target="_blank" aria-label="GitHub"><i class="fab fa-github fa-2x"></i></a>
+                    <a href="mailto:rohit.kumar@example.com" aria-label="Email"><i class="fas fa-envelope fa-2x"></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Rohit Kumar. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
